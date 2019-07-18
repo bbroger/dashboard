@@ -2,7 +2,7 @@
 
 <h3>Funcionalidades PHP</h3> 
 
-* Login
+* Login ( hash + token )
 * Logout
 * Register
 * Register update
@@ -12,6 +12,7 @@
 * Personalizável 
 * 404 
 * Check out
+* Páginas com nível de acesso
 
 <h3>Estrutura do Banco de dados</h3>
 
