@@ -1,4 +1,3 @@
-# dashboard
 <h1>Painel de controle</h1>
 
 <h3>Funcionalidades</h3> 
@@ -8,18 +7,20 @@
 * Register
 * Register update
 
-Modelo de páginas 
+<h3>Páginas Disponíveis</h3>
 
--Personalizável -404 -Check out
+* Personalizável 
+* 404 
+* Check out
 
-Estrutura do Banco de dados
+<h3>Estrutura do Banco de dados</h3>
 
-CREATE TABLE `sb` (
-  `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
-  `name` varchar(150) NOT NULL,
-  `value` longtext NOT NULL,
-  PRIMARY KEY (`id`),
-  UNIQUE KEY `name` (`name`)
-) ENGINE=MyISAM AUTO_INCREMENT=295 DEFAULT CHARSET=utf8;
+    CREATE TABLE `sb` (
+    `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+    `name` varchar(150) NOT NULL,
+    `value` longtext NOT NULL,
+    PRIMARY KEY (`id`),
+    UNIQUE KEY `name` (`name`)
+    ) ENGINE=MyISAM AUTO_INCREMENT=295 DEFAULT CHARSET=utf8;
 
 
