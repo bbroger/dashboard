@@ -1,6 +1,6 @@
 <h1>Painel de controle</h1>
 
-<h3>Funcionalidades</h3> 
+<h3>Funcionalidades PHP</h3> 
 
 * Login
 * Logout
@@ -23,4 +23,9 @@
     UNIQUE KEY `name` (`name`)
     ) ENGINE=MyISAM AUTO_INCREMENT=295 DEFAULT CHARSET=utf8;
 
+<h3>htaccess</h3>
 
+    RewriteEngine On
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)$ /index.php?url=$1 [QSA,L]
