@@ -1,4 +1,4 @@
-<h1>Painel de controle</h1>
+<h1>Dashboard</h1>
 
 <h3>Funcionalidades PHP</h3> 
 
