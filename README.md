@@ -1,17 +1,18 @@
 # dashboard
-Painel de controle
+<h1>Painel de controle</h1>
 
-Funcionalidades 
+<h3>Funcionalidades</h3> 
 
--Login -Logout -Register -Update register 
+* Login
+* Logout
+* Register
+* Register update
 
 Modelo de páginas 
 
 -Personalizável -404 -Check out
 
 Estrutura do Banco de dados
-
-It's very easy to make some words **bold** and other words *italic* with Markdown. You can even [link to Google!](http://google.com)
 
 CREATE TABLE `sb` (
   `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
