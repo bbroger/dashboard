@@ -11,6 +11,8 @@ Modelo de páginas
 
 Estrutura do Banco de dados
 
+It's very easy to make some words **bold** and other words *italic* with Markdown. You can even [link to Google!](http://google.com)
+
 CREATE TABLE `sb` (
   `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
   `name` varchar(150) NOT NULL,
